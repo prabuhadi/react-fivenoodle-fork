@@ -1,8 +1,12 @@
 import React from "react";
 
-import meal1 from "./../../../assets/img/meal/vegetable-noodle.jpg";
-import meal2 from "./../../../assets/img/meal/spaghetti-vegan.jpg";
-import meal3 from "./../../../assets/img/meal/green-udon.jpg";
+import meal1 from "./../../../assets/img/meal/vegetable-noodle.webp";
+import meal2 from "./../../../assets/img/meal/spaghetti-vegan.webp";
+import meal3 from "./../../../assets/img/meal/green-udon.webp";
+import { IonIcon } from "react-ion-icon";
+import { flameOutline } from "ionicons/icons";
+import { restaurantOutline } from "ionicons/icons";
+import { starOutline } from "ionicons/icons";
 
 const meals = () => {
   return (
@@ -22,22 +26,19 @@ const meals = () => {
               <p class="meal-title">Vegetable Noodle</p>
               <ul class="meal-attributes">
                 <li class="meal-attribute">
-                  <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                  <IonIcon class="meal-icon" icon={flameOutline}></IonIcon>
                   <span>
                     <strong>650</strong> Calories
                   </span>
                 </li>
                 <li class="meal-attribute">
-                  <ion-icon
-                    class="meal-icon"
-                    name="restaurant-outline"
-                  ></ion-icon>
+                  <IonIcon class="meal-icon" icon={restaurantOutline}></IonIcon>
                   <span>
                     NutriScore &reg; <strong>83</strong>
                   </span>
                 </li>
                 <li class="meal-attribute">
-                  <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                  <IonIcon class="meal-icon" icon={starOutline}></IonIcon>
                   <span>
                     <strong>4.9</strong> Rating (1.685)
                   </span>
@@ -56,22 +57,19 @@ const meals = () => {
               <p class="meal-title">Spaghetti Vegan</p>
               <ul class="meal-attributes">
                 <li class="meal-attribute">
-                  <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                  <IonIcon class="meal-icon" icon={flameOutline}></IonIcon>
                   <span>
                     <strong>600</strong> Calories
                   </span>
                 </li>
                 <li class="meal-attribute">
-                  <ion-icon
-                    class="meal-icon"
-                    name="restaurant-outline"
-                  ></ion-icon>
+                  <IonIcon class="meal-icon" icon={restaurantOutline}></IonIcon>
                   <span>
                     NutriScore &reg; <strong>79</strong>
                   </span>
                 </li>
                 <li class="meal-attribute">
-                  <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                  <IonIcon class="meal-icon" icon={starOutline}></IonIcon>
                   <span>
                     <strong>4.9</strong> Rating (872)
                   </span>
@@ -90,22 +88,19 @@ const meals = () => {
               <p class="meal-title">Green Udon</p>
               <ul class="meal-attributes">
                 <li class="meal-attribute">
-                  <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                  <IonIcon class="meal-icon" icon={flameOutline}></IonIcon>
                   <span>
                     <strong>700</strong> Calories
                   </span>
                 </li>
                 <li class="meal-attribute">
-                  <ion-icon
-                    class="meal-icon"
-                    name="restaurant-outline"
-                  ></ion-icon>
+                  <IonIcon class="meal-icon" icon={restaurantOutline}></IonIcon>
                   <span>
                     NutriScore &reg; <strong>88</strong>
                   </span>
                 </li>
                 <li class="meal-attribute">
-                  <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                  <IonIcon class="meal-icon" icon={starOutline}></IonIcon>
                   <span>
                     <strong>4.9</strong> Rating (2.261)
                   </span>

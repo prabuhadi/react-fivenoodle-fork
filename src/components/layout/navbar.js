@@ -1,47 +1,47 @@
 import "./../../index.css";
 import Logo from "./../../assets/img/logo/5noodle-logo.png";
+import Header from "../../assets/js/sticky-nav";
+import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
-const header = document.getElementById("header");
+const Navbar = () => {
+  const [data, setData] = useState(false);
 
-window.addEventListener("scroll", () => {
-  if (window.scrollY > 30) {
-    header.style.height = "90px";
-  } else {
-    header.style.height = "120px";
-  }
-});
+  useEffect(() => {
+    var tmp = Header();
+    setData(tmp);
+  }, []);
 
-const navbar = () => {
   return (
     <header class="header" id="header">
       <nav class="main-nav-left">
         <ul class="main-nav-list">
           <li>
-            <a class="main-nav-link" href="./../items/menu">
+            <Link to={"/menu"} class="main-nav-link">
               Our Menu
-            </a>
+            </Link>
           </li>
           <li>
-            <a class="main-nav-link" href="./../items/about">
+            <Link to={"/about"} class="main-nav-link">
               About Us
-            </a>
+            </Link>
           </li>
         </ul>
       </nav>
-      <a href="./../items/home">
+      <Link to={"/"}>
         <img src={Logo} class="logo" alt="fivenoodle logo" />
-      </a>
+      </Link>
       <nav class="main-nav-right">
         <ul class="main-nav-list">
           <li>
-            <a class="main-nav-link" href="./../items/blog">
+            <Link to={"/blog"} class="main-nav-link">
               Blog
-            </a>
+            </Link>
           </li>
           <li>
-            <a class="main-nav-link" href="./../items/contact">
+            <Link to={"/contact"} class="main-nav-link">
               Contact
-            </a>
+            </Link>
           </li>
         </ul>
       </nav>
@@ -49,4 +49,4 @@ const navbar = () => {
   );
 };
 
-export default navbar;
+export default Navbar;

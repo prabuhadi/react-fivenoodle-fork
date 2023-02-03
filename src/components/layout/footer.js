@@ -1,36 +1,34 @@
 import React from "react";
+import Logo from "./../../assets/img/logo/5noodle-logo.png";
+import { IonIcon } from "react-ion-icon";
 
-const footer = () => {
+export function footer() {
   return (
     <div>
       <footer class="footer">
         <div class="container grid grid--footer">
           <div class="logo-col">
             <a href="#">
-              <img
-                class="footer-logo"
-                src="/assets/img/logo/5noodle-logo.png"
-                alt="fivenoodle logo"
-              />
+              <img class="footer-logo" src={Logo} alt="fivenoodle logo" />
             </a>
+            <div>
+              <IonIcon class="social-icon" name="logo-instagram" />
+            </div>
 
             <ul class="social-links">
               <li>
                 <a class="footer-link" href="#">
-                  <ion-icon
-                    class="social-icon"
-                    name="logo-instagram"
-                  ></ion-icon>
+                  <IonIcon class="social-icon" name="logo-instagram" />
                 </a>
               </li>
               <li>
                 <a class="footer-link" href="#">
-                  <ion-icon class="social-icon" name="logo-facebook"></ion-icon>
+                  <IonIcon class="social-icon" name="logo-facebook" />
                 </a>
               </li>
               <li>
                 <a class="footer-link" href="#">
-                  <ion-icon class="social-icon" name="logo-twitter"></ion-icon>
+                  <IonIcon class="social-icon" name="logo-twitter" />
                 </a>
               </li>
             </ul>
@@ -131,6 +129,6 @@ const footer = () => {
       </footer>
     </div>
   );
-};
+}
 
 export default footer;

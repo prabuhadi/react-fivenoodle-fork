@@ -1,4 +1,9 @@
 import React from "react";
+import { IonIcon } from "@ionic/react";
+import { nutritionOutline } from "ionicons/icons";
+import { happyOutline } from "ionicons/icons";
+import { earthOutline } from "ionicons/icons";
+import { leafOutline } from "ionicons/icons";
 
 const feature = () => {
   return (
@@ -29,7 +34,7 @@ const feature = () => {
         </div>
         <div class="container grid grid--4-cols">
           <div class="feature">
-            <ion-icon class="feature-icon" name="nutrition-outline"></ion-icon>
+            <IonIcon class="feature-icon" icon={nutritionOutline}></IonIcon>
             <p class="feature-title">Best Recipes</p>
             <p class="feature-text">
               Fivenoodle is a company that specializes in providing you the best
@@ -39,7 +44,7 @@ const feature = () => {
             </p>
           </div>
           <div class="feature">
-            <ion-icon class="feature-icon" name="leaf-outline"></ion-icon>
+            <IonIcon class="feature-icon" icon={leafOutline}></IonIcon>
             <p class="feature-title">Fresh & Organic</p>
             <p class="feature-text">
               Meet the new noodle that is so good for you, you'll wonder why you
@@ -48,7 +53,7 @@ const feature = () => {
             </p>
           </div>
           <div class="feature">
-            <ion-icon class="feature-icon" name="happy-outline"></ion-icon>
+            <IonIcon class="feature-icon" icon={happyOutline}></IonIcon>
             <p class="feature-title">Happy Tummy</p>
             <p class="feature-text">
               Our noodles are also gluten-free, vegan, and free of
@@ -57,7 +62,7 @@ const feature = () => {
             </p>
           </div>
           <div class="feature">
-            <ion-icon class="feature-icon" name="earth-outline"></ion-icon>
+            <IonIcon class="feature-icon" icon={earthOutline}></IonIcon>
             <p class="feature-title">Zero Waste</p>
             <p class="feature-text">
               Fivenoodle Feature is proud to be a company that is committed to

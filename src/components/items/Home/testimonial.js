@@ -4,16 +4,16 @@ import Customer1 from "./../../../assets/img/customer/Paul John.jpg";
 import Customer2 from "./../../../assets/img/customer/Amber Red.jpg";
 import Customer3 from "./../../../assets/img/customer/Kate Allison.jpg";
 
-import Galeri1 from "./../../../assets/img/gallery/gallery1.jpg";
-import Galeri2 from "./../../../assets/img/gallery/gallery2.jpg";
-import Galeri3 from "./../../../assets/img/gallery/gallery3.jpg";
-import Galeri4 from "./../../../assets/img/gallery/gallery4.jpg";
-import Galeri5 from "./../../../assets/img/gallery/gallery5.jpg";
-import Galeri6 from "./../../../assets/img/gallery/gallery6.jpg";
-import Galeri7 from "./../../../assets/img/gallery/gallery7.jpg";
-import Galeri8 from "./../../../assets/img/gallery/gallery8.jpg";
-import Galeri9 from "./../../../assets/img/gallery/gallery9.jpg";
-import Galeri10 from "./../../../assets/img/gallery/gallery10.jpg";
+import Galeri1 from "./../../../assets/img/gallery/gallery1.webp";
+import Galeri2 from "./../../../assets/img/gallery/gallery2.webp";
+import Galeri3 from "./../../../assets/img/gallery/gallery3.webp";
+import Galeri4 from "./../../../assets/img/gallery/gallery4.webp";
+import Galeri5 from "./../../../assets/img/gallery/gallery5.webp";
+import Galeri6 from "./../../../assets/img/gallery/gallery6.webp";
+import Galeri7 from "./../../../assets/img/gallery/gallery7.webp";
+import Galeri8 from "./../../../assets/img/gallery/gallery8.webp";
+import Galeri9 from "./../../../assets/img/gallery/gallery9.webp";
+import Galeri10 from "./../../../assets/img/gallery/gallery10.webp";
 
 const testimonial = () => {
   return (
