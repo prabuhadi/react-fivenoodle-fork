@@ -1,5 +1,6 @@
 import React from "react";
 import "./../../../assets/css/home.css";
+import "./../../../assets/css/queries.css";
 
 import Customer1 from "./../../../assets/img/customer/customer-1.jpg";
 import Customer2 from "./../../../assets/img/customer/customer-2.jpg";
