@@ -3,14 +3,94 @@ import Navbar from "../../layout/navbar";
 import Footer from "../../layout/footer";
 import "../../../assets/css/home.css";
 import "../../../assets/css/about.css";
-import imgKoki from "../../../assets/img/koki.jpg";
-import imgJas from "../../../assets/img/jas.jpg";
+import about1 from "../../../assets/img/about/about1.webp";
+import about2 from "../../../assets/img/about/about2.webp";
+import about3 from "../../../assets/img/about/about3.webp";
 const index = () => {
   return (
     <>
       <Navbar />
-      <div className="content-section">
-        <div className="tittle">ABOUT US</div>
+      <section class="banner-about">
+        <div class="banner-text heading-primary">
+          Our product first concern about food safety and premises hygiene
+        </div>
+      </section>
+
+      <section class="section-about">
+        <div class="container">
+          <span class="subheading">About Fivenoodle</span>
+          <h2 class="heading-secondary head-how">
+            Ordering delicious food at home was never this easy!
+          </h2>
+          <p class="about-description">
+            With our Fivenoodle app, you can customize your order and have it
+            delivered to your door in fastest way. All you have to do is follow
+            3 simple steps, order quick and easy with our simple-to-use
+            interface, and enjoy your meal. You don't need to worry about any
+            details. Fivenoodle will take care of it for you. All you need to do
+            is choose the type of dishes you want, how many people you need it
+            for, and a time that's convenient for you. Done! Your food is on its
+            way.
+          </p>
+
+          <div class="container grid grid--2-cols grid--center">
+            <div class="about-text-box">
+              <p class="subheading">Our Copmany</p>
+              <h3 class="heading-tertiary">
+                We're concern about global healthy
+              </h3>
+              <p class="about-description">
+                Fivenoodle is a restaurant that provides a healthy noodle food
+                menu that was born starting from a home business from the owner
+                of fivenoodle which has developed rapidly into a healthy noodle
+                food restaurant until now. We provide a menu of various kinds of
+                processed noodles made from vegetables and other ingredients.
+              </p>
+            </div>
+            <div class="img-about">
+              <img class="about-img" src={about1} alt="main apps screen" />
+            </div>
+
+            <div class="img-about">
+              <img class="about-img" src={about2} alt="order list screen" />
+            </div>
+            <div class="about-text-box">
+              <p class="subheading">Our Service</p>
+              <h3 class="heading-tertiary">Livin healthy life</h3>
+              <p class="about-description">
+                We know you're busy, so we're making the world's best food even
+                faster. Meet Fivenoodle: the food delivery service that brings
+                the freshest cooked noodles right to your doorabout. You can
+                choose from a variety of noodles with quality ingredients and
+                healthy for diet. We also offer local, organic, and delicious
+                tasting dishes. And we never send any waste back to your
+                kitchen.
+              </p>
+            </div>
+
+            <div class="about-text-box">
+              <p class="subheading">Our Resolution</p>
+              <h3 class="heading-tertiary">
+                Make your time more efficiently and enjoy your time
+              </h3>
+              <p class="about-description">
+                The best way to eat noodles has arrived! Fivenoodle is the
+                world's first technology company to serve healthy noodles right
+                in front of your door. We're committed to delivering fresh,
+                delicious, and healthy food for every person on the planet. You
+                can choose from various offerings, from zero-waste organic
+                gluten-free noodles to Vietnamese pho, with a variety of healthy
+                ingredients. Join us!
+              </p>
+            </div>
+            <div class="img-about">
+              <img class="about-img" src={about3} alt="delivery screen" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* <section className="content-section">
         <div className="content">
           <div className="isi-content">
             <h2>Profile</h2>
@@ -79,7 +159,7 @@ const index = () => {
             </div>
           </article>
         </div>
-      </div>
+      </section> */}
       <Footer />
     </>
   );
