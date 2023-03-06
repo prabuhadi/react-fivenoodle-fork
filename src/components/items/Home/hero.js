@@ -9,13 +9,15 @@ import Customer4 from "./../../../assets/img/customer/customer-4.jpg";
 import Customer5 from "./../../../assets/img/customer/customer-5.jpg";
 
 import heroBanner from "./../../../assets/img/Hero.webp";
+import video from "../../../assets/video/video.mp4";
 
 const hero = () => {
   return (
     <div>
       <section class="banner">
+        <video autoPlay muted loop class="banner-video" src={video}></video>
         <div class="banner-text heading-primary">
-          Start Eating Well Today, Try Our Revolutionary Noodle
+          Start Eating Well Today, Try <span>Our Revolutionary Noodle</span>
         </div>
       </section>
       <section class="section-hero">

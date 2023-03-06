@@ -154,7 +154,7 @@
     grid-template-columns: 1fr 1fr;
   }
 
-  .meal:last-child {
+  .meal-home:last-child {
     grid-column: 1/ -1;
     justify-self: center;
     margin: 0 20%;

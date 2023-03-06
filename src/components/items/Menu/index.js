@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import Navbar from "../../layout/navbar";
 import Footer from "../../layout/footer";
 import { IonIcon } from "react-ion-icon";
-// import "../../../assets/css/home.css";
 import "../../../assets/css/home.css";
 import "../../../assets/css/menu.css";
 import greenUdonImg from "../../../assets/img/meal/green-udon.webp";
@@ -13,6 +12,7 @@ import img4 from "../../../assets/img/meal/img4.jpg";
 import img5 from "../../../assets/img/meal/img5.jpg";
 import spaghettiVegan from "../../../assets/img/meal/spaghetti-vegan.webp";
 import vegetableNoodle from "../../../assets/img/meal/vegetable-noodle.webp";
+import { flameOutline, restaurantOutline, starOutline } from "ionicons/icons";
 
 const Index = () => {
   useEffect(() => {
@@ -84,7 +84,7 @@ const Index = () => {
           </ul>
         </div>
 
-        <div className="container grid grid--3-cols margin-bottom-md">
+        <div className="container grid grid-menu grid--3-cols margin-bottom-md">
           <div className="meal noodle all">
             <img
               className="meal-img"
@@ -95,41 +95,27 @@ const Index = () => {
               <p className="meal-title">Vegetable Noodle</p>
               <ul className="meal-attributes">
                 <li className="meal-attribute">
-                  <ion-icon
-                    className="meal-icon"
-                    name="flame-outline"
-                  ></ion-icon>
+                  <IonIcon className="meal-icon" icon={flameOutline}></IonIcon>
                   <span>
                     <strong>650</strong> Calories
                   </span>
                 </li>
                 <li className="meal-attribute">
-                  <ion-icon
+                  <IonIcon
                     className="meal-icon"
-                    name="restaurant-outline"
-                  ></ion-icon>
+                    icon={restaurantOutline}
+                  ></IonIcon>
                   <span>
                     NutriScore &reg; <strong>83</strong>
                   </span>
                 </li>
                 <li className="meal-attribute">
-                  <ion-icon
-                    className="meal-icon"
-                    name="star-outline"
-                  ></ion-icon>
+                  <IonIcon className="meal-icon" icon={starOutline}></IonIcon>
                   <span>
-                    <strong>4.9</strong> Rating (1.685)
+                    <strong>4.9</strong> Rating
                   </span>
                 </li>
               </ul>
-              <div className="order">
-                <a href="#" className="btn--order">
-                  Order
-                </a>
-                <p className="price">
-                  <span>IDR</span> <strong>60.000</strong>
-                </p>
-              </div>
             </div>
           </div>
           <div className="meal sphagetti all">
@@ -142,41 +128,27 @@ const Index = () => {
               <p className="meal-title">Spaghetti Vegan</p>
               <ul className="meal-attributes">
                 <li className="meal-attribute">
-                  <ion-icon
-                    className="meal-icon"
-                    name="flame-outline"
-                  ></ion-icon>
+                  <IonIcon className="meal-icon" icon={flameOutline}></IonIcon>
                   <span>
                     <strong>600</strong> Calories
                   </span>
                 </li>
                 <li className="meal-attribute">
-                  <ion-icon
+                  <IonIcon
                     className="meal-icon"
-                    name="restaurant-outline"
-                  ></ion-icon>
+                    icon={restaurantOutline}
+                  ></IonIcon>
                   <span>
                     NutriScore &reg; <strong>79</strong>
                   </span>
                 </li>
                 <li className="meal-attribute">
-                  <ion-icon
-                    className="meal-icon"
-                    name="star-outline"
-                  ></ion-icon>
+                  <IonIcon className="meal-icon" icon={starOutline}></IonIcon>
                   <span>
-                    <strong>4.9</strong> Rating (872)
+                    <strong>4.9</strong> Rating
                   </span>
                 </li>
               </ul>
-              <div className="order">
-                <a href="#" className="btn--order">
-                  Order
-                </a>
-                <p className="price">
-                  <span>IDR</span> <strong>45.000</strong>
-                </p>
-              </div>
             </div>
           </div>
           <div className="meal noodle all">
@@ -189,41 +161,27 @@ const Index = () => {
               <p className="meal-title">Green Udon</p>
               <ul className="meal-attributes">
                 <li className="meal-attribute">
-                  <ion-icon
-                    className="meal-icon"
-                    name="flame-outline"
-                  ></ion-icon>
+                  <IonIcon className="meal-icon" icon={flameOutline}></IonIcon>
                   <span>
                     <strong>700</strong> Calories
                   </span>
                 </li>
                 <li className="meal-attribute">
-                  <ion-icon
+                  <IonIcon
                     className="meal-icon"
-                    name="restaurant-outline"
-                  ></ion-icon>
+                    icon={restaurantOutline}
+                  ></IonIcon>
                   <span>
                     NutriScore &reg; <strong>88</strong>
                   </span>
                 </li>
                 <li className="meal-attribute">
-                  <ion-icon
-                    className="meal-icon"
-                    name="star-outline"
-                  ></ion-icon>
+                  <IonIcon className="meal-icon" icon={starOutline}></IonIcon>
                   <span>
-                    <strong>4.9</strong> Rating (2.261)
+                    <strong>4.9</strong> Rating
                   </span>
                 </li>
               </ul>
-              <div className="order">
-                <a href="#" className="btn--order">
-                  Order
-                </a>
-                <p className="price">
-                  <span>IDR</span> <strong>70.000</strong>
-                </p>
-              </div>
             </div>
           </div>
           <div className="meal desert all">
@@ -232,41 +190,27 @@ const Index = () => {
               <p className="meal-title">Kelengkeng Kiamboy</p>
               <ul className="meal-attributes">
                 <li className="meal-attribute">
-                  <ion-icon
-                    className="meal-icon"
-                    name="flame-outline"
-                  ></ion-icon>
+                  <IonIcon className="meal-icon" icon={flameOutline}></IonIcon>
                   <span>
                     <strong>600</strong> Calories
                   </span>
                 </li>
                 <li className="meal-attribute">
-                  <ion-icon
+                  <IonIcon
                     className="meal-icon"
-                    name="restaurant-outline"
-                  ></ion-icon>
+                    icon={restaurantOutline}
+                  ></IonIcon>
                   <span>
                     NutriScore &reg; <strong>79</strong>
                   </span>
                 </li>
                 <li className="meal-attribute">
-                  <ion-icon
-                    className="meal-icon"
-                    name="star-outline"
-                  ></ion-icon>
+                  <IonIcon className="meal-icon" icon={starOutline}></IonIcon>
                   <span>
-                    <strong>4.9</strong> Rating (872)
+                    <strong>4.9</strong> Rating
                   </span>
                 </li>
               </ul>
-              <div className="order">
-                <a href="#" className="btn--order">
-                  Order
-                </a>
-                <p className="price">
-                  <span>IDR</span> <strong>45.000</strong>
-                </p>
-              </div>
             </div>
           </div>
           <div className="meal desert all">
@@ -275,41 +219,27 @@ const Index = () => {
               <p className="meal-title">Apple Tart</p>
               <ul className="meal-attributes">
                 <li className="meal-attribute">
-                  <ion-icon
-                    className="meal-icon"
-                    name="flame-outline"
-                  ></ion-icon>
+                  <IonIcon className="meal-icon" icon={flameOutline}></IonIcon>
                   <span>
                     <strong>600</strong> Calories
                   </span>
                 </li>
                 <li className="meal-attribute">
-                  <ion-icon
+                  <IonIcon
                     className="meal-icon"
-                    name="restaurant-outline"
-                  ></ion-icon>
+                    icon={restaurantOutline}
+                  ></IonIcon>
                   <span>
                     NutriScore &reg; <strong>79</strong>
                   </span>
                 </li>
                 <li className="meal-attribute">
-                  <ion-icon
-                    className="meal-icon"
-                    name="star-outline"
-                  ></ion-icon>
+                  <IonIcon className="meal-icon" icon={starOutline}></IonIcon>
                   <span>
-                    <strong>4.9</strong> Rating (872)
+                    <strong>4.9</strong> Rating
                   </span>
                 </li>
               </ul>
-              <div className="order">
-                <a href="#" className="btn--order">
-                  Order
-                </a>
-                <p className="price">
-                  <span>IDR</span> <strong>45.000</strong>
-                </p>
-              </div>
             </div>
           </div>
           <div className="meal desert all">
@@ -318,41 +248,27 @@ const Index = () => {
               <p className="meal-title">Ajitsuke Tamago</p>
               <ul className="meal-attributes">
                 <li className="meal-attribute">
-                  <ion-icon
-                    className="meal-icon"
-                    name="flame-outline"
-                  ></ion-icon>
+                  <IonIcon className="meal-icon" icon={flameOutline}></IonIcon>
                   <span>
                     <strong>1900</strong> Calories
                   </span>
                 </li>
                 <li className="meal-attribute">
-                  <ion-icon
+                  <IonIcon
                     className="meal-icon"
-                    name="restaurant-outline"
-                  ></ion-icon>
+                    icon={restaurantOutline}
+                  ></IonIcon>
                   <span>
                     NutriScore &reg; <strong>80</strong>
                   </span>
                 </li>
                 <li className="meal-attribute">
-                  <ion-icon
-                    className="meal-icon"
-                    name="star-outline"
-                  ></ion-icon>
+                  <IonIcon className="meal-icon" icon={starOutline}></IonIcon>
                   <span>
-                    <strong>4.9</strong> Rating (1809)
+                    <strong>4.9</strong> Rating
                   </span>
                 </li>
               </ul>
-              <div className="order">
-                <a href="#" className="btn--order">
-                  Order
-                </a>
-                <p className="price">
-                  <span>IDR</span> <strong>45.000</strong>
-                </p>
-              </div>
             </div>
           </div>
         </div>

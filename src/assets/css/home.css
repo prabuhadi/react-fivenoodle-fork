@@ -59,6 +59,46 @@
   font-weight: 700;
 }
 
+.banner {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+
+  /* Gradient Image */
+  background-image: linear-gradient(
+    to right,
+    rgba(36, 22, 7, 100),
+    rgba(255, 128, 0, 0.3)
+  );
+  /* url("/src/assets/img/Banner.webp"); */
+}
+
+.banner-video {
+  z-index: 000;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  mix-blend-mode: multiply;
+}
+
+.banner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-88%, -50%);
+  color: #fff;
+  font-size: 92px;
+  transition: all 0.3s;
+}
+
+.banner-text:hover {
+  -webkit-text-stroke: 2px #fff;
+  color: transparent;
+}
 /*//////// Partnership Section ////////*/
 
 .section-partnership {

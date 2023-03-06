@@ -3,6 +3,7 @@ import Navbar from "../../layout/navbar";
 import Footer from "../../layout/footer";
 import "../../../assets/css/home.css";
 import "../../../assets/css/about.css";
+import "../../../assets/css/queries.css";
 import about1 from "../../../assets/img/about/about1.webp";
 import about2 from "../../../assets/img/about/about2.webp";
 import about3 from "../../../assets/img/about/about3.webp";
@@ -12,7 +13,7 @@ const index = () => {
       <Navbar />
       <section class="banner-about">
         <div class="banner-text heading-primary">
-          Our product first concern about food safety and premises hygiene
+          Our product first concern about <span>food safety and premises</span>
         </div>
       </section>
 
@@ -33,7 +34,7 @@ const index = () => {
             way.
           </p>
 
-          <div class="container grid grid--2-cols grid--center">
+          <div class="container grid grid-about grid--2-cols grid--center">
             <div class="about-text-box">
               <p class="subheading">Our Copmany</p>
               <h3 class="heading-tertiary">
