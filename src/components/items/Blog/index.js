@@ -7,7 +7,7 @@ const index = () => {
   return (
     <>
       <Navbar />
-      <section className="banner-about">
+      <section className="banner-blog">
         <div className="banner-text heading-primary">
           Healthy Meals Made Easy <span>Discover Our Delicious Options </span>
           Experience amazing benefit
