@@ -184,6 +184,31 @@ strong {
   height: 108px;
 }
 
+.main-nav {
+  display: none;
+}
+
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: none;
+}
+
+.icon-mobile-nav {
+  height: 48px;
+  width: 48px;
+  color: #333;
+}
+
+.close {
+  display: none;
+}
+
+.menu {
+  display: block;
+}
+
 /*/////// Sticky NAV - PURPOSE  ///////*/
 
 .header.sticky {
